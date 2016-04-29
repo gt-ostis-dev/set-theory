@@ -6,7 +6,8 @@ section_multisets
 section_concept_of_multisets
 => nrel_main_idtf:
 	[Раздел. Понятие мультимножества]
-	(* <- lang_ru;; *);slation:
+	(* <- lang_ru;; *);
+	<= nrel_sc_text_translation:
 		...
 		(* 
 		-> rrel_example: "file://htmls/section_concept_of_multisets.html" (* <-lang_ru;; *);;
