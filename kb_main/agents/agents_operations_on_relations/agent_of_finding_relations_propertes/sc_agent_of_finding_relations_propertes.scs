@@ -2,7 +2,7 @@ sc_agent_of_finding_relations_propertes
 => nrel_main_idtf:
 	[sc-агент нахождения свойств отношения] 
 	(* <- lang_ru;; *);
-	[sc-agent of finding relations propertes] 
+	[sc-agent of finding relation's propertes] 
 	(* <- lang_en;; *);
 
 <- abstract_sc_agent;
