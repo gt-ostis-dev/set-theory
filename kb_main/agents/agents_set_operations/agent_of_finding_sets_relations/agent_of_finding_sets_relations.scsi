@@ -3,7 +3,7 @@ agent_of_finding_sets_relations
 	[агентная scp-программа поиска взаимоотношений множеств] 
 	(* <- lang_ru;; *);
 
-	[agent scp-program of finding sets relations] 
+	[agent scp-program of finding sets' relations] 
 	(* <- lang_en;; *);
 
 <- agent_scp_program;;

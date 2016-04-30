@@ -3,7 +3,7 @@ agent_of_finding_relations_propertes
 	[агентная scp-программа поиска свойств отношения] 
 	(* <- lang_ru;; *);
 
-	[agent scp-program of finding relations propertes] 
+	[agent scp-program of finding relation's propertes] 
 	(* <- lang_en;; *);
 
 <- agent_scp_program;;
