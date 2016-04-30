@@ -37,6 +37,14 @@ scp_program -> agent_of_finding_domain
 
 		-> .agent_of_finding_domain_operator3A 
 			(*
+		 	<- printNl;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: [агент поиска доменов и области определения];;
+
+		 	=> nrel_goto: .agent_of_finding_domain_operator3Ap;;
+		 	*);;
+
+		-> .agent_of_finding_domain_operator3Ap
+			(*
 			<- searchElStr3;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
@@ -58,9 +66,9 @@ scp_program -> agent_of_finding_domain
 			(*
 			<- searchSetStr5;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
-		 	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+		 	-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
 		 	-> rrel_3: rrel_assign: rrel_scp_var: _node1;;
-            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+            -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
 		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_first_domain;;
 
                  	-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
@@ -68,7 +76,7 @@ scp_program -> agent_of_finding_domain
 		 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
 
                  	=> nrel_then: .agent_of_finding_domain_operator4A_domain;;
-		 			=> nrel_else: .agent_of_finding_domain_operator_return;;
+		 			=> nrel_else: .agent_of_finding_domain_operator7D;;
                  	*);;
 
 		-> .agent_of_finding_domain_operator4A_domain
@@ -82,6 +90,14 @@ scp_program -> agent_of_finding_domain
 		 	*);;
 
 		-> .agent_of_finding_domain_operator4B
+			(*
+		 	<- printNl;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: [первый домен];;
+
+		 	=> nrel_goto: .agent_of_finding_domain_operator4Bp;;
+		 	*);;
+
+		-> .agent_of_finding_domain_operator4Bp
 			(*
 		 	<- searchSetStr5;;
 		 	-> rrel_1: rrel_assign: rrel_scp_var: _comb1;;
@@ -112,14 +128,13 @@ scp_program -> agent_of_finding_domain
 			(*
 		 	<- searchSetStr3;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _comb1;;
-		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		 	-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
 		 	-> rrel_3: rrel_assign: rrel_scp_var: _inst1;;
                  
                  	-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
                  	-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
 
-                 	=> nrel_then: .agent_of_finding_domain_operator5A;;
-		 			=> nrel_else: .agent_of_finding_domain_operator_return;;
+                 	=> nrel_goto: .agent_of_finding_domain_operator5A;;
                  	*);;		
 		
 		-> .agent_of_finding_domain_operator5A
@@ -136,7 +151,7 @@ scp_program -> agent_of_finding_domain
 		 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
 
                  	=> nrel_then: .agent_of_finding_domain_operator5A_domain;;
-                 	=> nrel_else: .agent_of_finding_domain_operator_return;;
+                 	=> nrel_else: .agent_of_finding_domain_operator7A;;
                  	*);;
 
 		-> .agent_of_finding_domain_operator5A_domain
@@ -197,8 +212,7 @@ scp_program -> agent_of_finding_domain
             		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
 		 			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
 
-                 	=> nrel_then: .agent_of_finding_domain_operator6A;;
-		 			=> nrel_else: .agent_of_finding_domain_operator_return;;
+                 	=> nrel_goto: .agent_of_finding_domain_operator6A;;
                  	*);;
 
 		-> .agent_of_finding_domain_operator6A
@@ -276,8 +290,7 @@ scp_program -> agent_of_finding_domain
             		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
 		 			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
 
-                 	=> nrel_then: .agent_of_finding_domain_operator7A;;
-		 			=> nrel_else: .agent_of_finding_domain_operator_return;;
+                 	=> nrel_goto: .agent_of_finding_domain_operator7A;;
                  	*);;
 
 		-> .agent_of_finding_domain_operator7A
@@ -322,7 +335,7 @@ scp_program -> agent_of_finding_domain
 		 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
 
                  	=> nrel_then: .agent_of_finding_domain_operator7C;;
-		 			=> nrel_else: .agent_of_finding_domain_operator_return;;
+		 			=> nrel_else: .agent_of_finding_domain_operator7D;;
                  	*);;
 
 		-> .agent_of_finding_domain_operator7C 
@@ -334,8 +347,7 @@ scp_program -> agent_of_finding_domain
 
 					-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
 
-		  			=> nrel_then: .agent_of_finding_domain_operator7D;;
-					=> nrel_else: .agent_of_finding_domain_operator_return;;
+		  			=> nrel_goto: .agent_of_finding_domain_operator7D;;
 		 	*);;
 
 		-> .agent_of_finding_domain_operator7D 
