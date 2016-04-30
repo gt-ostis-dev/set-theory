@@ -1,0 +1,47 @@
+nrel_A
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отношение A*]
+	(*
+	<- lang_ru;;
+	*);
+	[relation A*]
+	(*
+	<- lang_en;;
+	*);
+<-relation;;
+
+a	=>nrel_A:	b;a;;
+b	=>nrel_A:	b;;
+
+nrel_B
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отношение B*]
+	(*
+	<- lang_ru;;
+	*);
+	[relation B*]
+	(*
+	<- lang_en;;
+	*);
+<-relation;;
+
+a	=>nrel_B:	b;;
+b	=>nrel_B:	c;;
+
+nrel_C
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отношение C*]
+	(*
+	<- lang_ru;;
+	*);
+	[relation C*]
+	(*
+	<- lang_en;;
+	*);
+<-relation;;
+
+a	=>nrel_C:	b;a;;
+b	=>nrel_C:	c;;

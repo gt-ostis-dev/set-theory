@@ -20,5 +20,6 @@ ui_menu_na_sets
 	ui_menu_file_for_finding_domain;	
 	ui_menu_file_for_finding_relations_propertes;
 	ui_menu_file_for_finding_sets_propertes;
-	ui_menu_file_sourcing_of_the_ligaments_relations
+	ui_menu_file_sourcing_of_the_ligaments_relations;
+	ui_menu_file_for_finding_relations_reflexive_propertes 
 };;
