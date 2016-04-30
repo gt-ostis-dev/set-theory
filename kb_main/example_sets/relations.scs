@@ -45,3 +45,35 @@ nrel_C
 
 a	=>nrel_C:	b;a;;
 b	=>nrel_C:	c;;
+
+nrel_D
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отношение D*]
+	(*
+	<- lang_ru;;
+	*);
+	[relation D*]
+	(*
+	<- lang_en;;
+	*);
+<-relation;;
+
+a	=>nrel_D:	b;;
+b	=>nrel_D:	a;;
+
+nrel_E
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отношение E*]
+	(*
+	<- lang_ru;;
+	*);
+	[relation E*]
+	(*
+	<- lang_en;;
+	*);
+<-relation;;
+
+a	=>nrel_E:	a;;
+b	=>nrel_E:	b;;
