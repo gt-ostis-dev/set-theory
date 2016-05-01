@@ -23,6 +23,10 @@ ui_menu_na_sets
 	ui_menu_file_sourcing_of_the_ligaments_relations;
 	ui_menu_file_for_checking_whether_the_agent_is_a_transitive_relation;
 	ui_menu_file_for_finding_relations_reflexive_propertes;
+<<<<<<< HEAD
 	ui_menu_file_for_finding_relations_symmetric_propertes;
 	ui_menu_file_for_finding_converse_relation
+=======
+	ui_menu_file_for_finding_relations_symmetric_propertes
+>>>>>>> 4c04481e4131336d488b080d84fd868c736ef431
 };;

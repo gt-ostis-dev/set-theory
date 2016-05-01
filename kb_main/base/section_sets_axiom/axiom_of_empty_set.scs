@@ -1,0 +1,12 @@
+subject_domain_of_sets
+-> rrel_axiom:
+	axiom_bulk;
+	axiom_of_empty_set;
+	axiom_of_infinity;
+	axiom_of_pairing;
+	axiom_of_boolean;
+	axiom_of_union;
+	allocation_scheme;
+	conversion_circuit;
+	axiom_of_regularity;
+	axiom_of_choice;;
