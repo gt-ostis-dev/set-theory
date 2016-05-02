@@ -36,7 +36,7 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 				-> rrel_3: rrel_fixed: rrel_scp_const: symmetric_relation;;
 
-			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator46;;
+			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator6;;
 			*);;
 
 			->.proc_of_finding_relations_symmetric_propertes_operator6 (*
@@ -65,7 +65,7 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_3: rrel_fixed: rrel_scp_var: _A;;
 
 	                 	=> nrel_then: .proc_of_finding_relations_symmetric_propertes_operator9;;
-	                 	=> nrel_else: .proc_of_finding_relations_symmetric_propertes_operator10;;
+	                 	=> nrel_else: .proc_of_finding_relations_symmetric_propertes_operator010;;
 			*);; 
 
 			-> .proc_of_finding_relations_symmetric_propertes_operator9 (*
@@ -75,6 +75,27 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_3: rrel_fixed: rrel_scp_const: asymmetric_relation;;
 
 			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator46;;
+			*);;
+
+			->.proc_of_finding_relations_symmetric_propertes_operator010 (*
+				<- searchElStr5;;
+				-> rrel_1: rrel_assign: rrel_scp_var: _el1;;
+				-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _el2;;
+				-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_5: rrel_fixed: rrel_scp_var: _A;;
+
+	                 	=> nrel_then: .proc_of_finding_relations_symmetric_propertes_operator10;;
+	                 	=> nrel_else: .proc_of_finding_relations_symmetric_propertes_operator0000000;;
+			*);; 
+
+			-> .proc_of_finding_relations_symmetric_propertes_operator0000000 (*
+			 <- genElStr3;;
+			 	-> rrel_1: rrel_assign: rrel_scp_var: _answer;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_fixed: rrel_scp_const: [Данный элемент не является отношением.];;
+
+			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator_return;;
 			*);;
 
 			->.proc_of_finding_relations_symmetric_propertes_operator10 (*
@@ -187,7 +208,7 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 				-> rrel_3: rrel_fixed: rrel_scp_var: _A;;
 
-			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator00000;;
+			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator100;;
 			*);;
 
 			->.proc_of_finding_relations_symmetric_propertes_operator100 (*
@@ -292,7 +313,7 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_2: rrel_fixed: rrel_scp_var: _element1;;
 
 	            => nrel_then: .proc_of_finding_relations_symmetric_propertes_operator00003;;
-	            => nrel_else: .proc_of_finding_relations_symmetric_propertes_operator0000000;;
+	            => nrel_else: .proc_of_finding_relations_symmetric_propertes_operator46;;
 			*);; 
 
 			-> .proc_of_finding_relations_symmetric_propertes_operator000011 (*
@@ -406,7 +427,7 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_4: rrel_assign: rrel_scp_var: _arcA;;
 				-> rrel_5: rrel_fixed: rrel_scp_var: _A;;
 
-	            => nrel_then: .proc_of_finding_relations_symmetric_propertes_operator0000000;;
+	            => nrel_then: .proc_of_finding_relations_symmetric_propertes_operator46;;
 	            => nrel_else: .proc_of_finding_relations_symmetric_propertes_operator000003;;
 			*);; 
 
@@ -430,7 +451,7 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_4: rrel_assign: rrel_scp_var: _arcA;;
 				-> rrel_5: rrel_fixed: rrel_scp_var: _A;;
 
-	            => nrel_then: .proc_of_finding_relations_symmetric_propertes_operator0000000;;
+	            => nrel_then: .proc_of_finding_relations_symmetric_propertes_operator46;;
 	            => nrel_else: .proc_of_finding_relations_symmetric_propertes_operator000003;;
 			*);; 
 
@@ -451,18 +472,6 @@ scp_program -> proc_of_finding_relations_symmetric_propertes
 				-> rrel_3: rrel_fixed: rrel_scp_var: _A;;
 
 			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator46;;
-			*);;
-
-
-
-
-			-> .proc_of_finding_relations_symmetric_propertes_operator0000000 (*
-			 <- genElStr3;;
-			 	-> rrel_1: rrel_assign: rrel_scp_var: _answer;;
-				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
-				-> rrel_3: rrel_fixed: rrel_scp_const: [Данное отношение не обладает свойством симметричности, антисимметричности и асимметричности.];;
-
-			  => nrel_goto: .proc_of_finding_relations_symmetric_propertes_operator_return;;
 			*);;
 
 			-> .proc_of_finding_relations_symmetric_propertes_operator46 (*

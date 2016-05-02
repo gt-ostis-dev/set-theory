@@ -53,13 +53,13 @@ section_mapping_of_sets
 <= nrel_sc_text_translation:
 		picturePr1
 		(* 
-			=> nrel_main_idtf:[объединение](* <- lang_ru;; *);;
+			=> nrel_main_idtf:[отображение](* <- lang_ru;; *);;
 			-> rrel_example: "file://htmls/Pr1.png" (* <-lang_ru;; *);;
 		*);
 <= nrel_sc_text_translation:
 		picturePr2
 		(* 
-			=> nrel_main_idtf:[объединение](* <- lang_ru;; *);;
+			=> nrel_main_idtf:[отображения](* <- lang_ru;; *);;
 			-> rrel_example: "file://htmls/Pr2.png" (* <-lang_ru;; *);;
 		*);
 <= nrel_sc_text_translation:
@@ -76,7 +76,7 @@ section_function
 <= nrel_sc_text_translation:
 		pictureFun
 		(* 
-			=> nrel_main_idtf:[объединение](* <- lang_ru;; *);;
+			=> nrel_main_idtf:[функции](* <- lang_ru;; *);;
 			-> rrel_example: "file://htmls/fun.jpg" (* <-lang_ru;; *);;
 		*);
 <= nrel_sc_text_translation:
