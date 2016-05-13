@@ -25,5 +25,6 @@ ui_menu_na_sets
 	ui_menu_file_for_finding_relations_reflexive_propertes;
 	ui_menu_file_for_finding_relations_symmetric_propertes;
 	ui_menu_file_for_finding_converse_relation;
-	ui_menu_file_for_finding_axioms
+	ui_menu_file_for_finding_axioms;
+	ui_menu_file_operations
 };;
