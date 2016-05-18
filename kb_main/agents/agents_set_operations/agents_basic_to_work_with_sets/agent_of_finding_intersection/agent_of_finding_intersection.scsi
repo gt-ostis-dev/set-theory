@@ -33,7 +33,7 @@ scp_program -> agent_of_finding_intersection (*
 
 		-> .agent_of_finding_operator_intersection3 (*
 			<- printNl;;
-			-> rrel_1: rrel_fixed: rrel_scp_const: [агент нахождения пересечения множеств];;
+			-> rrel_1: rrel_scp_const: [агент нахождения пересечения множеств];;
 			=> nrel_goto: .agent_of_finding_operator_intersection4;;
    		*);;
 
@@ -120,6 +120,8 @@ scp_program -> agent_of_finding_intersection (*
         *);;
 
 
+//=====================================================================
+        // дурдом начался
         -> .agent_of_finding_operator_intersection13A (*
 				<- ifCoin;;
 				-> rrel_1: rrel_fixed: rrel_scp_var: _set1;;
@@ -134,129 +136,116 @@ scp_program -> agent_of_finding_intersection (*
 				-> rrel_1: rrel_fixed: rrel_scp_var: _set2;;
 				-> rrel_2: rrel_fixed: rrel_scp_const: set_B;;
 
-	            => nrel_then: .agent_of_finding_operator_intersection13BAND;;
-	            => nrel_else: .agent_of_finding_operator_intersection13C;;
+	            => nrel_then: .agent_of_finding_operator_intersection14A;;
+	            => nrel_else: .agent_of_finding_operator_intersection13AA;;
 			*);;
-
+//====================================================================
        	-> .agent_of_finding_operator_intersection13AA (*
 				<- ifCoin;;
 				-> rrel_1: rrel_fixed: rrel_scp_var: _set2;;
 				-> rrel_2: rrel_fixed: rrel_scp_const: set_A;;
 
-	            => nrel_then: .agent_of_finding_operator_intersection13BA;;
-	            => nrel_else: .agent_of_finding_operator_intersection13AA;;
+	            => nrel_then: .agent_of_finding_operator_intersection13AB;;
+	            => nrel_else: .agent_of_finding_operator_intersection16;;
 			*);;
 
-       	-> .agent_of_finding_operator_intersection13BA (*
+       	-> .agent_of_finding_operator_intersection13AB (*
 				<- ifCoin;;
 				-> rrel_1: rrel_fixed: rrel_scp_var: _set1;;
 				-> rrel_2: rrel_fixed: rrel_scp_const: set_B;;
 
-	            => nrel_then: .agent_of_finding_operator_intersection13BAND;;
-	            => nrel_else: .agent_of_finding_operator_intersection13C;;
+	            => nrel_then: .agent_of_finding_operator_intersection14B;;
+	            => nrel_else: .agent_of_finding_operator_intersection16;;
 			*);;
        	// твою
+//====================================================================
+		-> .agent_of_finding_operator_intersection14A (*
+			<- printNl;;
+			-> rrel_1: rrel_scp_const: [efbwuhfewwyug];;
 
-       	-> .agent_of_finding_operator_intersection13C (*
-				<- ifCoin;;
-				-> rrel_1: rrel_fixed: rrel_scp_var: _set2;;
-				-> rrel_2: rrel_fixed: rrel_scp_const: set_C;;
-
-	            => nrel_then: .agent_of_finding_operator_intersection13CAND;;
-	            => nrel_else: .agent_of_finding_operator_intersection13;;
-			*);;
-
-       	-> .agent_of_finding_operator_intersection13CA (*
-				<- ifCoin;;
-				-> rrel_1: rrel_fixed: rrel_scp_var: _set1;;
-				-> rrel_2: rrel_fixed: rrel_scp_const: set_C;;
-
-	            => nrel_then: .agent_of_finding_operator_intersection13CAND;;
-	            => nrel_else: .agent_of_finding_operator_intersection13;;
-			*);;
-
-
-		-> .agent_of_finding_operator_intersection13CAND (*
-			<- genElStr3;;
-			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
-			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: "file://images/k1.png";;
-			=>nrel_goto: .agent_of_finding_operator_intersection13;;
+			=>nrel_goto: .agent_of_finding_operator_intersection14Ap;;
 		*);;
 
-
-		-> .agent_of_finding_operator_intersection13BAND (*
-			<- genElStr3;;
-			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> .agent_of_finding_operator_intersection14Ap (*
+			<- searchSetStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: k1;;
 			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: "file://images/k2.png";;
-			=>nrel_goto: .agent_of_finding_operator_intersection14aaa;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _image;;
+
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			=>nrel_goto: .agent_of_finding_operator_intersection14C;;
 		*);;
 
-		-> .agent_of_finding_operator_intersection14aaa (*
+		-> .agent_of_finding_operator_intersection14B (*
+			<- searchSetStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: k2;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _image;;
+
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			=>nrel_goto: .agent_of_finding_operator_intersection14C;;
+		*);;
+
+		-> .agent_of_finding_operator_intersection14C (*
 			<- genElStr5;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _set3;;
-			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_const: rrel_scp_var: _arc;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: "file://images/k2.png";;
+			-> rrel_2: rrel_assign: rrel_common: rrel_const: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _image;;
 			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
 			-> rrel_5: rrel_fixed: rrel_scp_const: diagramm_venna;;
-			=>nrel_goto: .agent_of_finding_operator_intersection14aac;;
+			=>nrel_goto: .agent_of_finding_operator_intersection14D;;
 		*);;
 
-		-> .agent_of_finding_operator_intersection14aac (*
+		-> .agent_of_finding_operator_intersection14D (*
 			<- searchSetStr5;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _set3;;
-			-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: "file://images/k2.png";;
-			-> rrel_4: rrel_assign: rrel_scp_var: _arc2;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _image;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
 			-> rrel_5: rrel_fixed: rrel_scp_const: diagramm_venna;;
 
 			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
 			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
-			=>nrel_goto: .agent_of_finding_operator_intersection14aab;;
+			=>nrel_goto: .agent_of_finding_operator_intersection14E;;
 		*);;
 
-		-> .agent_of_finding_operator_intersection14aab (*
+		-> .agent_of_finding_operator_intersection14E (*
 			<- genElStr3;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
 			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc3;;
 			-> rrel_3: rrel_fixed: rrel_scp_const: diagramm_venna;;
-			=>nrel_goto: .agent_of_finding_operator_intersection13;;
+			=>nrel_goto: .agent_of_finding_operator_intersection14F;;
 		*);;
 
+		-> .agent_of_finding_operator_intersection14F (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc3;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _image;;
+			=>nrel_goto: .agent_of_finding_operator_intersection16;;
+		*);;
 
+// дурдом закончился
+// ===========================================================================
 
-
-
-
-
-        -> .agent_of_finding_operator_intersection13 (*
-            <- searchElStr3;;
-            -> rrel_1: rrel_fixed: rrel_scp_var: _set1;;
-            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
-            -> rrel_3: rrel_scp_var: rrel_assign: rrel_node: _el;;
-            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
-            -> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;; // добавлено
-            => nrel_goto: .agent_of_finding_operator_intersection14;;
-        *);;
-
-		-> .agent_of_finding_operator_intersection13 (*
+		-> .agent_of_finding_operator_intersection16 (*
             <- searchSetStr3;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _set3;;
-            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
-            -> rrel_3: rrel_scp_var: rrel_assign: rrel_node: _el;;
-            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
-            -> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;; // добавлено
-            => nrel_goto: .agent_of_finding_operator_intersection14;;
-        *);;
+            -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _el;;
+            		
+            		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+            		=> nrel_goto: .agent_of_finding_operator_intersection17;;
+        			*);;
 
-		-> .agent_of_finding_operator_intersection14 (*
+		-> .agent_of_finding_operator_intersection17 (*
 			<- genElStr5;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
 			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_const: rrel_scp_var: _arc;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
 			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
 			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+			
 			=>nrel_goto: .agent_of_finding_operator_intersection_return;;
 		*);;
 	
