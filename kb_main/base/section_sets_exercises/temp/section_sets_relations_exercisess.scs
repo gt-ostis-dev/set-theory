@@ -7,5 +7,10 @@ section_sets_relations_exercisess
 			section_sets_relations_exercises2;;
 		*);
 		section_sets_relations_exercises2
+		(*
+		=> nrel_section_base_order: 
+			section_sets_relations_exercises3;;
+		*);
+		section_sets_relations_exercises3
 	};
 	<-concept_exercise;;
