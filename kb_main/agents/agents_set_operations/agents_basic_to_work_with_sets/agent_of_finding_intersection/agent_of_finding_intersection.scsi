@@ -142,7 +142,7 @@ scp_program -> agent_of_finding_intersection (*
 //====================================================================
        	-> .agent_of_finding_operator_intersection13AA (*
 				<- ifCoin;;
-				-> rrel_1: rrel_fixed: rrel_scp_var: _set2;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _set1;;
 				-> rrel_2: rrel_fixed: rrel_scp_const: set_A;;
 
 	            => nrel_then: .agent_of_finding_operator_intersection13AB;;
@@ -151,8 +151,8 @@ scp_program -> agent_of_finding_intersection (*
 
        	-> .agent_of_finding_operator_intersection13AB (*
 				<- ifCoin;;
-				-> rrel_1: rrel_fixed: rrel_scp_var: _set1;;
-				-> rrel_2: rrel_fixed: rrel_scp_const: set_B;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _set2;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: set_C;;
 
 	            => nrel_then: .agent_of_finding_operator_intersection14B;;
 	            => nrel_else: .agent_of_finding_operator_intersection16;;

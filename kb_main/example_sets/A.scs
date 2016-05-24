@@ -10,5 +10,5 @@ set_A
 	*);
 <-set;
 <-finite_set;
--> b;c;d;e;f;;
+-> a; r; g; h; f; d; c;;
 
