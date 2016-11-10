@@ -33,11 +33,11 @@ Definition_of_function
 subdividing_to_the_presence_of_image
 	=>nrel_main_idtf:
 		[Разбиение по признаку образа] (* <-lang_ru;; *);;
-function
+funciton
 	<= nrel_subdividing: 
 	subdividing_to_the_presence_of_image
 	(*
-		->injection;
+		->injecion;
 		surjection;
 		bijection;;
 		
