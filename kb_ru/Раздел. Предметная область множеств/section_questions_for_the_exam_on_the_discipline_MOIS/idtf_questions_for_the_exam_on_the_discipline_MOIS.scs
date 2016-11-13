@@ -1,3 +1,7 @@
+nrel_answer
+=> nrel_main_idtf:
+	[ответ*] (* <- lang_ru;; *);;
+
 section_questions_for_the_exam_on_the_discipline_MOIS
 => nrel_main_idtf:
 	[Раздел. Вопросы к экзамену по дисциплине МОИС] (* <- lang_ru;; *);;
