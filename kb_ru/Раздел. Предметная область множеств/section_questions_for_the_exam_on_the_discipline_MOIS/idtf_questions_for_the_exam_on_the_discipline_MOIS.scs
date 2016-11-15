@@ -1,11 +1,3 @@
-nrel_answer
-=> nrel_main_idtf:
-	[ответ*] (* <- lang_ru;; *);;
-
-section_questions_for_the_exam_on_the_discipline_MOIS
-=> nrel_main_idtf:
-	[Раздел. Вопросы к экзамену по дисциплине МОИС] (* <- lang_ru;; *);;
-
 section_questions_for_the_exam_on_the_discipline_MOIS_question_1
 => nrel_main_idtf:
 	[Вопросы к экзамену по дисциплине МОИС. Вопрос 1] (* <- lang_ru;; *);;

@@ -1,3 +1,17 @@
+section_questions_for_the_offset_on_the_discipline_MOIS
+<= nrel_sc_text_translation:
+	...
+	(*
+	-> "file://pdfs/Вопросы к зачету 2015.pdf" (* <-lang_ru;; *);;
+	*);;
+
+section_questions_for_the_exam_on_the_discipline_MOIS
+<= nrel_sc_text_translation:
+	...
+	(*
+	-> "file://pdfs/Вопросы к экзамену 2015.pdf" (* <-lang_ru;; *);;
+	*);;
+
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_1
 <= nrel_sc_text_translation:
 	...
