@@ -17,6 +17,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_1
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_1.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question1.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_2
@@ -31,6 +32,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_3
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_3.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question3_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question3_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_4
@@ -45,6 +48,10 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_5
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_5.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question5_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question5_2.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question5_3.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question5_4.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_6
@@ -73,6 +80,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_9
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_9.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question9.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_10
@@ -87,6 +95,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_11
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_11.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question11.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_12
@@ -101,6 +110,22 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_13
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_13.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_2.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_3.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_4.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_5.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_6.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_7.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_8.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_9.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_10.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_11.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_12.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_13.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_14.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_15.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question13_16.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_14
@@ -115,6 +140,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_15
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_15.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question15.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question15_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_16
@@ -129,6 +156,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_17
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_17.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question17.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_18
@@ -143,6 +171,9 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_19
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_19.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question19_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question19_2.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question19_3.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_20
@@ -157,6 +188,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_21
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_21.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question21_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question21_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_22
@@ -185,6 +218,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_25
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_25.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question25_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question25_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_26
@@ -255,6 +290,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_35
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_35.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question35.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_36
@@ -269,6 +305,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_37
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_37.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question37.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question37_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_38
