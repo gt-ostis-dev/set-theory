@@ -321,6 +321,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_39
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_39.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question39.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_40
@@ -391,6 +392,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_49
 	...
 	(*
 	-> "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_49.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question49_1.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question49_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_50
