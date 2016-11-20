@@ -25,6 +25,8 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_2
 	...
 	(*
 	-> rrel_example: "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_2.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/2.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/2_1.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_3
@@ -75,6 +77,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_8
 	(*
 	-> rrel_example: "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_8.html" (* <-lang_ru;; *);;
 	-> rrel_example: "file://content/8.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/8_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_9
@@ -221,6 +224,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_24
 	(*
 	-> rrel_example: "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_24.html" (* <-lang_ru;; *);;
 	-> rrel_example: "file://content/24.png" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/24_2.png" (* <-lang_ru;; *);;
 	*);;
 
 section_answer_for_the_exam_on_the_discipline_MOIS_answer_25
