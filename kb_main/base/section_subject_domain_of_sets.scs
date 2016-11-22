@@ -33,4 +33,20 @@ section_subject_domain_of_n_sets
 			section_multisets;;
 		*);
 		section_multisets
+		(*
+		=> nrel_section_base_order: 
+			section_questions_for_the_exam_on_the_discipline_MOIS;;
+		*);
+		section_questions_on_the_discipline_MOIS
+		(*
+			<= nrel_section_decomposition:
+			{
+				section_questions_for_the_offset_on_the_discipline_MOIS
+				(*
+				=> nrel_section_base_order:
+					section_questions_for_the_exam_on_the_discipline_MOIS;;
+				*);
+				section_questions_for_the_exam_on_the_discipline_MOIS
+			};;
+		*)
 	};;

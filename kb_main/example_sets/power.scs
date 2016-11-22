@@ -18,3 +18,7 @@ set_of_real_numbers
 	=> nrel_power_set:
 		[infinity] (* <- lang_en;;*);
                 [бесконечность] (* <- lang_ru;;*);;
+
+nrel_asked
+	<- sc_node_norole_relation;
+	<- binary_relation;;
