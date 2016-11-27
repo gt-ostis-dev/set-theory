@@ -26,7 +26,7 @@ nrel_diagonal
 <- antireflexive_relation;
 <- antisymmetric_relation;
 <- antitransitive_relation;
-=> nrel_arity_of_relations: 2
+=> nrel_arity: 2
 	(* <- number;; *);;
 
 // иллюстрация
