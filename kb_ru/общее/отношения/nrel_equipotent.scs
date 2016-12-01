@@ -62,3 +62,7 @@ Statement_of_nrel_equipotent
 => nrel_main_idtf:
 	[Утвержедния об отношении равномощность*]
 	(* <- lang_ru;;	*);;
+
+nrel_equipotent
+=>nrel_first_domain: set;
+=>nrel_second_domain: set;;
