@@ -1,7 +1,7 @@
 proper_subset
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[собственное пожмножество*]
+	[собственное подмножество*]
 	(* <- lang_ru;;	*);;
 
 proper_subset
@@ -21,7 +21,7 @@ proper_subset
 
 Definition_of_proper_subset
 => nrel_main_idtf:
-	[Определение понятия "собственное пожмножество*"]
+	[Определение понятия "собственное подмножество*"]
 	(* <- lang_ru;;	*);;
 
 proper_subset
