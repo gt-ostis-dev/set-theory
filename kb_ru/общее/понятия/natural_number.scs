@@ -28,12 +28,22 @@ Definition_of_natural_number
 	(* <- lang_ru;;	*);;
 
 natural_number
-<- rrel_key_sc_element:...
+<- rrel_key_sc_element: 
+	...
 	(* 
 	<- sc_explanation;;
-	<= nrel_sc_text_translation:...
+	<= nrel_sc_text_translation: ...
 		(* 
 		-> rrel_example: [Множество всех натуральных чисел принято обозначать символом N.] (* <-lang_ru;; *);;
-                -> rrel_example: [Множество натуральных чисел является бесконечным, так как для любого натурального числа n найдётся натуральное число, большее чем n.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* 
+        -> rrel_example: [Множество натуральных чисел является бесконечным, так как для любого натурального числа n найдётся натуральное число, большее чем n.] (* <-lang_ru;; *);;
 		*);;
 	*);;

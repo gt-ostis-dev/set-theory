@@ -33,12 +33,24 @@ paradoxes_of_set_theory
 	<=nrel_sc_text_translation:
 		example_of_paradoxes_of_set_theory
 		(*
-		-> rrel_example:"file://htmls/burali_forti_paradox.html" (* <-lang_ru;; *);;
-                -> rrel_example:"file://htmls/russell_paradox.html" (* <-lang_ru;; *);;
+			-> rrel_example:"file://htmls/burali_forti_paradox.html" (* <-lang_ru;; *);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<=nrel_sc_text_translation:
+		example_of_paradoxes_of_set_theory_2
+		(*
+        	-> rrel_example:"file://htmls/russell_paradox.html" (* <-lang_ru;; *);;
 		*);;
 	*);;
 
 example_of_paradoxes_of_set_theory
 => nrel_main_idtf:
 	[пример (парадокс теории множеств)]
+	(* <- lang_ru;;	*);;
+
+example_of_paradoxes_of_set_theory_2
+=> nrel_main_idtf:
+	[пример 2 (парадокс теории множеств)]
 	(* <- lang_ru;;	*);;
