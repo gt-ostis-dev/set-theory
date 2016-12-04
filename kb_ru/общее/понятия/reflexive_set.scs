@@ -30,7 +30,7 @@ reflexive_set
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example: [Отношения, области определения которых строго пересекаются с описываемым множеством] (* <-lang_ru;; *);;
+		-> rrel_example: "file://htmls/example_reflexive_set_with_set .html" (* <-lang_ru;; *);;
 		*);;
 	*);
 <- rrel_key_sc_element:
@@ -40,7 +40,7 @@ reflexive_set
 		...
 		(* 
 		
-		-> rrel_example: [Отношения, области определения которых являются надмножеством описываемого множества и каждая связка которых связывает элементы описываемого множества между собой] (* <-lang_ru;; *);;
+		-> rrel_example: "file://htmls/example_reflexive_set_with_superset_refl.html" (* <-lang_ru;; *);;
 		
 		*);;
 *);
@@ -50,7 +50,7 @@ reflexive_set
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example: [Отношения, области определения которых являются надмножеством описываемого множества и связки которых, в общем случае, связывают элементы описываемого множества с другими объектами] (* <-lang_ru;; *);;
+		-> rrel_example:  "file://htmls/example_reflexive_set_with_superset.html"  (* <-lang_ru;; *);;
 		*);;
 *);;
 	
@@ -61,5 +61,5 @@ reflexive_set
 Definition_of_reflexive_set
 => nrel_main_idtf:
 	[Определение понятия "рефлексивное множество"]
-	(* <- lang_ru;;	*);;
+(* <- lang_ru;; *);;
 
