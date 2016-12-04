@@ -166,6 +166,7 @@ section_answer_for_the_exam_on_the_discipline_MOIS_answer_15
 	...
 	(*
 	-> rrel_example: "file://htmls/answers/section_answer_for_the_exam_on_the_discipline_MOIS_answer_15.html" (* <-lang_ru;; *);;
+	-> rrel_example: "file://content/question15_1.png" (* <-lang_ru;; *);;
 	-> rrel_example: "file://content/question15.png" (* <-lang_ru;; *);;
 	-> rrel_example: "file://content/question15_2.png" (* <-lang_ru;; *);;
 	*);;
