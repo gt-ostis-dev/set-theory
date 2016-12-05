@@ -58,13 +58,11 @@ subdividing_to_the_presence_of_height
 subdividing_to_the_presence_of_membership_function
 	=>nrel_main_idtf:
 		[Разбиение по признаку функции принадлежности] (* <-lang_ru;; *);;
+
 subdividing_to_the_presence_of_degree_of_membership
 	=>nrel_main_idtf:
 		[Разбиение по признаку степени принадлежности] (* <-lang_ru;; *);;
 
-
-
- 
 
 fuzzy_set
 	<= nrel_subdividing: 
@@ -73,6 +71,7 @@ fuzzy_set
 		->subnormal_fuzzy_set ;
 		normal_fuzzy_set;;
 	*);;
+
 fuzzy_set
 	<= nrel_subdividing: 
 	subdividing_to_the_presence_of_degree_of_membership
@@ -80,6 +79,7 @@ fuzzy_set
 		->empty_fuzzy_set ;
 		non_empty_fuzzy_set;;
 	*);;
+
 fuzzy_set
 	<= nrel_subdividing: 
 	subdividing_to_the_presence_of_membership_function

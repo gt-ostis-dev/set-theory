@@ -33,7 +33,7 @@ element_of_set
 
 Definition_of_element_of_set
 => nrel_main_idtf:
-	[Определение понятия "элент множества"]
+	[Определение понятия "элемент множества"]
 	(* <- lang_ru;;	*);;
 
 

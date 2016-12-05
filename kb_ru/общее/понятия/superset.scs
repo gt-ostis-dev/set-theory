@@ -14,15 +14,16 @@ superset
 superset
 <- rrel_key_sc_element:
 	Definition_of_superset
-	(* 
+	(*
 	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
+	<= nrel_sc_text_translation:...
+		(*
 		-> rrel_example:"file://htmls/superset.html" (* <-lang_ru;; *);;
 		*);;
-	
-
+	<= nrel_using_constants:...
+		(* 
+		->set;;
+		*);;
 	*);;
 
 
@@ -31,3 +32,18 @@ Definition_of_superset
 	[Определение понятия "надмножество"]
 	(* <- lang_ru;;	*);;
 
+
+superset
+<- rrel_key_sc_element: ...
+	(*
+	<=nrel_sc_text_translation:
+		example_of_superset
+		(*
+		-> rrel_example:"file://htmls/superset_example.html" (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+example_of_superset
+=> nrel_main_idtf:
+	[пример (надмножество)]
+	(* <- lang_ru;;	*);;

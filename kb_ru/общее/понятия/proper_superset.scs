@@ -1,7 +1,7 @@
 proper_superset
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[собственное надмножество]
+	[собственное надмножество*]
 	(* <- lang_ru;;	*);;
 
 proper_superset
@@ -21,6 +21,12 @@ proper_superset
 
 Definition_of_proper_superset
 => nrel_main_idtf:
-	[Определение понятия "надмножество"]
+	[Определение понятия "собственное надмножество*"]
 	(* <- lang_ru;;	*);;
 
+proper_superset
+<- binary_relation;
+   antireflexive_relation;
+   antisymmetric_relation;
+   transitive_relation;
+   oriented_relation;;
