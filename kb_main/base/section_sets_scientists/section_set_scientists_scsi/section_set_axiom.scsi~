@@ -172,7 +172,7 @@ set_axiom
 				<- lang_ru;;
 				*);;
 			*);;
-	*);
+	*);;
 
 	axiom_of_determinacy
 	(*
@@ -201,5 +201,4 @@ set <- rrel_key_sc_element:
 	allocation_scheme;
 	conversion_circuit;
 	axiom_of_regularity;
-	axiom_of_choice;
-	axiom_of_determinacy;;
+	axiom_of_choice;;
