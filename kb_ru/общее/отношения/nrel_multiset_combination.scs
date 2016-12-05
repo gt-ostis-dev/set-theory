@@ -38,5 +38,4 @@ Definition_of_nrel_multiset_combination
 	[Определение понятия "объединение мультимножеств*"]
 	(* <- lang_ru;;	*);
 	[Definition " multiset combination*"]
-	(* <- lang_en;;	*);;
-
+(* <- lang_en;; *);;

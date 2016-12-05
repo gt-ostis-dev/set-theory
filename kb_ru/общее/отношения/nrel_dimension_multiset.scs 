@@ -31,5 +31,4 @@ nrel_dimension_multiset
 Definition_of_nrel_dimension_multiset
 => nrel_main_idtf:
 	[Определение понятия "размерность мультимножества"]
-	(* <- lang_ru;;	*);;
-
+(* <- lang_ru;; *);;

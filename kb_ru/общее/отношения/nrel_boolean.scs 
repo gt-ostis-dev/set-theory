@@ -51,5 +51,4 @@ nrel_boolean
 Definition_of_nrel_boolean
 => nrel_main_idtf:
 	[Определение понятия "булеан"]
-	(* <- lang_ru;;	*);;
-
+(* <- lang_ru;; *);;
