@@ -51,11 +51,11 @@ soft_set
 
 
 	*);;
-Statement_of_soft_set
+Definition_of_soft_set
 => nrel_main_idtf:
 	[Определение понятия "мягкое множество"]
 	(* <- lang_ru;;	*);;
-Definition_of_soft_set
+Statement_of_soft_set
 => nrel_main_idtf:
 	[Утверждения о понятии "мягкое множество"]
 	(* <- lang_ru;;	*);;
