@@ -11,10 +11,19 @@ projection
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example:"file://htmls/projection.html" (* <-lang_ru;; *);;
+		-> rrel_example: "file://htmls/projection.html" (* <-lang_ru;; *);;
 		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> cartesian_product;
+		nrel_component;
+
+		element_of_set;;
 		*);;
 
+
+	*);;
 
 Definition_of_projection
 => nrel_main_idtf:
