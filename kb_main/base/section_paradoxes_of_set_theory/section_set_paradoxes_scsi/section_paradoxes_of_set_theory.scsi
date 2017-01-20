@@ -26,27 +26,19 @@ set_paradoxes
 		[Cantor's Paradox] (* <- lang_en;; *);;
 	<- sc_text_statement;;
 	<= nrel_sc_text_translation:	
-<<<<<<< HEAD
-			...
-=======
 		...
->>>>>>> kradavar/kradavar
+		(*
+		-> 
+			"file://html/paradox_Cantor_text_ru.html"
 			(*
-			-> 
-				"file://html/paradox_Cantor_text_ru.html"
-				(*
-				<- lang_ru;;
-				*);;
+			<- lang_ru;;
 			*);;
+		*);;
 	*);
 	paradox_Russel
 	(*
-	=> nrel_main_idtf: 
-<<<<<<< HEAD
+	=> nrel_main_idtf:
 		[Парадокс Рассела] (* <- lang_ru;; *);
-=======
-		[Парадокс Расселла] (* <- lang_ru;; *);
->>>>>>> kradavar/kradavar
 		[Russell's paradox] (* <- lang_en;; *);;
 	<- sc_text_statement;;
 	<= nrel_sc_text_translation:	
@@ -74,8 +66,6 @@ set_paradoxes
 				<- lang_ru;;
 				*);;
 			*);;
-<<<<<<< HEAD
-=======
 	*);
 	paradox_Hausdorff
 	(*
@@ -141,5 +131,4 @@ set_paradoxes
 				<- lang_ru;;
 				*);;
 			*);;
->>>>>>> kradavar/kradavar
 	*);;

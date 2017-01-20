@@ -102,8 +102,6 @@ set_scientists
 				<- lang_ru;;
 				*);;
 			*);;
-<<<<<<< HEAD
-=======
 	*);
 	Dedekind
 	(*
@@ -204,5 +202,4 @@ set_scientists
 				<- lang_ru;;
 				*);;
 			*);;
->>>>>>> kradavar/kradavar
 	*);;
