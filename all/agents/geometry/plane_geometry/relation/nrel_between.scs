@@ -1,0 +1,22 @@
+sc_node_norole_relation -> nrel_between;;
+
+nrel_between => nrel_main_idtf:
+	[между*]
+	(* <- lang_ru;; *);
+	[between*]
+	(* <- lang_en;; *);;
+
+nrel_between => nrel_idtf: [лежать между*] (* <- lang_ru;; *);;
+
+nrel_between => nrel_idtf: [находиться между*] (* <- lang_ru;; *);;
+
+nrel_between => nrel_idtf: [быть элементом множества, находящимся между крайними элементами этого множества*] (* <- lang_ru;; *);;
+
+nrel_between => nrel_idtf: [Ролевое отношение, связывающее знак множества с тем его элементом, который находится между другими элементами этого множества*] (* <- lang_ru;; *);;
+
+nrel_between <- relation;;
+
+nrel_between <- quasybinary_relation;;
+
+nrel_between => 
+

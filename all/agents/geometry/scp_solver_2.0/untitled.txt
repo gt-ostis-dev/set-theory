@@ -1,0 +1,19 @@
+ui_menu_file_for_finding_value_task
+	Поиск значения неизвестной величины (Param_Area)
+		_-> ui_arg_1;;
+ui_menu_file_for_logic_deduction
+	_-> rrel_1:: ui_arg_1;;	
+    _-> rrel_2:: ui_arg_2;;
+    (1-ый паретр в процедуре --- statement --- связка импликации или экв.
+     2-ой параметр в пр. ---- object, т.е. то что нужно найти в аг. наоборот)
+ui_menu_file_for_calculating_math_expressions
+	_-> ui_arg_1;;
+ui_menu_file_for_finding_proof_task
+	Проверка истинности утверждения (100% доказательство)
+		_-> ui_arg_1;;
+ui_menu_file_for_finding_hypertext
+	Команда поиска трансляции гипертекста
+	_-> rrel_1:: ui_arg_1;;
+	_-> rrel_2:: ui_arg_2;;
+ui_menu_file_for_solver_solution
+	_-> ui_arg_1;;
